@@ -1,0 +1,98 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=IBM+Plex+Mono:ital,wght@1,600&family=Mulish:wght@300;400&family=Poppins:wght@500&family=Quicksand&family=Roboto+Slab&display=swap');
+ 
+ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+   
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.container .content{
+    text-align: center;
+}
+.content h3{
+    color:#333 ;
+    font-size: 30px;
+    text-align: left;
+}
+.content h3 span{
+    background-color: crimson;
+    color: white;
+    padding: 0px 15px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.content h1{
+    color:#333 ;
+    font-size: 50px;
+}
+ 
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    background: #eee;
+}
+.form-container .form{
+    padding: 50px 30px;
+ padding-bottom: 10%;
+    background: #c0c2ae;
+    width: 70%;
+ 
+}
+.form-container .form h3{
+    color: #333;
+    font-family: 'Quicksand', sans-serif;
+     margin-bottom: 10px;
+     text-align: left;
+     font-size: 45px;
+}
+.form-container .form input,
+.form-container .form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 10px 0;
+    background: #eee;
+    
+}
+.icon{
+    border: 1px solid #9b9c93bd;
+    background: #c0c2ae;
+    width: 55px;
+    height: 48px;
+    line-height: 44px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 9px;
+
+ }
+ .btn{
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    right: 19%;
+    
+ }
+ .btn:hover{
+    background-color: #333;
+   color: white;
+   
+ }
+ 
